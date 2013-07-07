@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="default_style" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="default_style.red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="default_style.noti">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+</resources>

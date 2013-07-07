@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Showcase"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Showcase"/>
+    <item
+        android:id="@+id/Menu_View_Profile"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="View Profile"/>
+    <item
+        android:id="@+id/Menu_Add_Item"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Add Item"/>
+    <item
+        android:id="@+id/Menu_Logout"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Logout"/>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BD-Bay BETA 8</string>
+    <string name="search">SEARCH</string>
+    <string name="product_image">Image of the Product</string>
+    <string name="enter_user_name">Enter your User Name : </string>
+    <string name="enter_password">Enter your Password :</string>
+    <string name="reenter_password">Re-enter your Password :</string>
+    <string name="register_now">Not yet Register ! Register Now…</string>
+    <string name="recover_password_now">Forgot your password ! Recover it Now…</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="back">Back</string>
+    <string name="enter_your_name">Enter your Name :</string>
+    <string name="address">Enter your Address : </string>
+    <string name="enter_phone">Enter your Mobile phone Number : </string>
+    <string name="email_address">Enter Your email Address : </string>
+    <string name="necessary_field">*All the fields are necessary</string>
+    <string name="enter_title">Enter Your Product\'s Name : </string>
+    <string name="enter_details">Enter Your Product\'s Details : </string>
+    <string name="enter_price">Enter Your Product\'s Price : </string>
+    <string name="enter_number_prod">Enter Your Number of Product\'s : </string>
+    <string name="browse">Browse</string>
+    <string name="negotiable">Negotiable</string>
+    <string name="add">Add</string>
+    <string name="enter_pin">Enter pin : </string>
+    <string name="reenter_pin">Re-enter pin : </string>
+    <string name="enter_pin2">Enter pin2 : </string>
+    <string name="noti_pin2">*Enter the verification code sent to your phone.</string>
+    <string name="noti_pin">*Atleast 8 char (only alphabet and numbers). Used in transection. Can\'t be changed.</string>
+    <string name="profile_picture_product">Choose the profile picture of your product</string>
+    <string name="profile_picture_user">Choose the profile picture of your profile</string>
+    <string name="capture_photo">Capture a photo</string>
+    <string name="select_gallery">Select from a Gallery</string>
+    <string name="catagory_prompt">Choose a Category</string>
+    <string name="next">NEXT</string>
+    <string name="adv_starting_date">"Advertisement Starting Date : "</string>
+    <string name="adv_finishing_date">"Advertisement Finishing Date : "</string>
+    <string name="requires_credit">"Requires Credit : "</string>
+    <string name="available_credit">"Available Credit : "</string>
+    <string name="save_adv_data">Save</string>
+    <string name="update">Update</string>
+    <string name="next_page">   Next Page>>></string>
+    <string name="prev_page">&lt;&lt;&lt;Prev Page   </string>
+    <string name="search_error">No search value found…</string>
+    <string name="calculate">Calculate required Credit</string>
+    <string name="insert_your_category_">"Insert your category : "</string>
+    <string name="insert_your_sub_category_">"Insert your sub category : "</string>
+
+</resources>

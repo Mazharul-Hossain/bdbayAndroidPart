@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageButton
+        android:id="@+id/widget46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="103dp" />
+
+    <ImageButton
+        android:id="@+id/widget47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="185dp" />
+
+    <ImageButton
+        android:id="@+id/widget48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="286dp" />
+
+    <ImageButton
+        android:id="@+id/widget49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="103dp" />
+
+    <ImageButton
+        android:id="@+id/widget50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="185dp" />
+
+    <ImageButton
+        android:id="@+id/widget51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="286dp" />
+
+    <ImageButton
+        android:id="@+id/widget55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="3dp"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/widget53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="296dp"
+        android:layout_y="5dp" />
+
+</AbsoluteLayout>

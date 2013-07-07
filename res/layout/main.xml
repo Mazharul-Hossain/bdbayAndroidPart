@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+
+            <ImageButton
+                android:id="@+id/reload_page_imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/reload_icon"
+                android:contentDescription="reload the page"
+                android:onClick="listener" />
+
+            <ImageButton
+                android:id="@+id/home_imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_icon"
+                android:contentDescription="Your home"
+                android:onClick="listener" />
+
+            <ImageButton
+                android:id="@+id/go_prev_imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/go_prev_icon"
+                android:contentDescription="go to prev page"
+                android:onClick="listener" />
+
+            <ImageButton
+                android:id="@+id/go_next_imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/go_next_icon"
+                android:contentDescription="go to next page"
+                android:onClick="listener" />
+
+            <ImageButton
+                android:id="@+id/login_imageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_icon"
+                android:contentDescription="login to your account"
+                android:onClick="listener" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:inputType="none" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <Spinner
+                android:id="@+id/searchItem_spinner"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/searchItem_spinner1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/search_imageButton"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="@drawable/search_icon"
+                android:contentDescription="search a product"
+                android:onClick="listener" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/search_error_textView"
+            style="@style/default_style.red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_error" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/prev_search_page_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="right"
+                android:onClick="listener"
+                android:text="@string/prev_page" />
+
+            <TextView
+                android:id="@+id/next_search_page_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="left"
+                android:onClick="listener"
+                android:text="@string/next_page" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

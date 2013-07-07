@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bdbay.namespace"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyAppMyState"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".List_Avtivity_Main"
+            android:windowSoftInputMode="stateHidden|adjustResize|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Dialog_Photo"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Add_Adv_Category" />
+        <activity android:name=".Add_adv" />
+        <activity android:name=".AddItem" />
+        <activity android:name=".Buy_Item" />
+        <activity android:name=".Edit_update" />
+        <activity android:name=".Pin_request" />
+        <activity android:name=".profileRecovery" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Registration1" />
+        <activity android:name=".Registration2" />
+        <activity android:name=".ShowItem" />
+        <activity android:name=".Transaction" />
+    </application>
+
+</manifest>
